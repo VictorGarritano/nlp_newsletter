@@ -47,8 +47,9 @@ Em [Wolfson et al. (2020)](https://arxiv.org/abs/2001.11770v1), apresenta-se um 
 
 ***Radioactive data: tracing through training***
 
-Membros da equipe de pesquisa em IA do Facebook publicaram recentemente um [trabalho interessante](https://ai.facebook.com/blog/using-radioactive-data-to-detect-if-a-data-set-was-used-for-training/) que propõe a marcação de imagens (referenciadas como *radioactivate data*) de tal maneira que seja possível verificar se uma determinada base de dados foi utilizada no treinamento de um modelo de Aprendizado de Máquina. 
-Os autores concluíram que é possível utilizar uma marcação mais robusta que move as *features* para uma determinada direção, que pode ser utilizada para auxiliar a detecção de dados "radioativos" pelo menos, mesmo quando apenas **1%** destes estão presentes na base de treinamento. Essa é uma tarefa bem desafiadora, uma vez que qualquer modificação nos dados pode potencialmente prejudicar o desempenho do modelo. De acordo com os autores, o trabalho proposto pode "*ajudar pesquisadores e engenheiros a monitorar quais bases de dados foram utilizadas no treinamento de um modelo com o objetivo de compreender melhor como bases de dados de diferentes naturezas influenciam o desempenho de diversas redes neurais*". Parece uma tarefa crucial para aplicações *mission-critical*. Confira o artigo completo [aqui](https://arxiv.org/pdf/2002.00937.pdf).
+Membros da equipe de pesquisa em IA do Facebook publicaram recentemente um [trabalho interessante](https://ai.facebook.com/blog/using-radioactive-data-to-detect-if-a-data-set-was-used-for-training/) que propõe a marcação de imagens (referenciadas como *radioactivate data*) de tal maneira que seja possível verificar se uma determinada base de dados foi utilizada no treinamento de um modelo de Aprendizado de Máquina. Os autores concluíram que é possível utilizar uma marcação mais robusta que move as *features* para uma determinada direção, que pode ser utilizada para auxiliar a detecção de dados "radioativos" pelo menos, mesmo quando apenas **1%** destes estão presentes na base de treinamento. 
+
+Essa é uma tarefa bem desafiadora, uma vez que qualquer modificação nos dados pode potencialmente prejudicar o desempenho do modelo. De acordo com os autores, o trabalho proposto pode "*ajudar pesquisadores e engenheiros a monitorar quais bases de dados foram utilizadas no treinamento de um modelo com o objetivo de compreender melhor como bases de dados de diferentes naturezas influenciam o desempenho de diversas redes neurais*". Parece uma tarefa crucial para aplicações *mission-critical*. Confira o artigo completo [aqui](https://arxiv.org/pdf/2002.00937.pdf).
 
 <!-- Facebook AI researchers recently published [an interesting work](https://ai.facebook.com/blog/using-radioactive-data-to-detect-if-a-data-set-was-used-for-training/) that aims to mark images (referred to as radioactive data) so as to verify if that particular data set was used for training the ML model. They found that it is possible to use a clever marker that moves features towards a direction, which the model uses to help detect the usage of radioactive data even when only 1 percent of the training data is radioactive. This is challenging since any change in the data can potentially degrade the model accuracy. According to the authors, this work can “*help researchers and engineers to keep track of which data set was used to train a model so they can better understand how various data sets affect the performance of different neural networks*”. It seems like an important approach in mission-critical ML applications. Check out the full paper [here](https://arxiv.org/pdf/2002.00937.pdf). -->
 
@@ -64,37 +65,47 @@ O [REALM](https://kentonl.com/pub/gltpc.2020.pdf) é um método de recuperação
 [*fonte*](https://kentonl.com/pub/gltpc.2020.pdf)
 
 
-# Creativity and Society 🎨
+# Criatividade e Sociedade 🎨
 
-***Allowing remote paper & poster presentations at scientific conferences***
+***Apresentações remotas de artigos e pôsteres em conferências científicas***
 
-The past week there was the circulation of a [petition](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences) to allow for remote paper and poster presentations at scientific conferences like ML related ones. Go read more about it on [change.org](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences). It seems Yoshua Bengio, a pioneer in deep learning, is advocating for people to go and sign the petition. He made this clear in his new [blog](https://yoshuabengio.org/2020/02/10/fusce-risus/).
+Durante a semana passada, uma [petição](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences) circulou na internet, reivindicação a permissão para apresentações remotas de artigos e pôsteres em conferências científicas como as relacionadas às Aprendizado de Máquina. Para saber mais, acesse [change.org](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences). Parece que Yoshua Bengio, um dos pioneiros em *Deep Learning* está convocando as pessoas às assinarem a petição. Ele deixou isso bem claro em seu novo [blog](https://yoshuabengio.org/2020/02/10/fusce-risus/).
 
-***Abstraction and Reasoning Challenge***
+<!-- The past week there was the circulation of a [petition](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences) to allow for remote paper and poster presentations at scientific conferences like ML related ones. Go read more about it on [change.org](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences). It seems Yoshua Bengio, a pioneer in deep learning, is advocating for people to go and sign the petition. He made this clear in his new [blog](https://yoshuabengio.org/2020/02/10/fusce-risus/). -->
 
-François Chollet has recently posted a [Kaggle competition](https://www.kaggle.com/c/abstraction-and-reasoning-challenge/overview) where he released the Abstraction and Reasoning Corpus (ARC) that aims to encourage users to create AI systems that can solve reasoning tasks it has never been exposed to. The hope is to begin to build more robust AI systems that are able to better and quickly solve new problems on its own which could help to address the more challenging real-world applications such as improving self-driving cars that operate in extreme and diverse environments.
+***Abstração e Desafios de Raciocínio***
 
-***ML and NLP Publications in 2019***
+François Chollet postou recentemente uma [competição no Kaggle](https://www.kaggle.com/c/abstraction-and-reasoning-challenge/overview) onde ele disponibilizou o *Abstraction and Reasoning Corpus (ARC)*, uma base de dados que tem como objetivo encorajar os usuários a desenvolver sistemas de IA para resolver tarefas às quais nunca foram expostos. A esperança é que essa competição seja o pontapé inicial para  a construção de modelos mais robustos de IA, capaz de resolver novos problemas por conta própria de maneira mais eficiente e rápida, ajudando na resolução de aplicações mais desafiadoras do mundo real como a melhoria de carros autônomos que operam sobre ambientes diversos e extremos.
 
-Marek Rei releases his [yearly analysis](https://www.marekrei.com/blog/ml-and-nlp-publications-in-2019/) of machine learning and NLP publication statistics from 2019. The conferences included in the analysis are ACL, EMNLP, NAACL, EACL, COLING, TACL, CL, CoNLL, NeurIPS, ICML, ICLR, and AAAI.
+<!-- François Chollet has recently posted a [Kaggle competition](https://www.kaggle.com/c/abstraction-and-reasoning-challenge/overview) where he released the Abstraction and Reasoning Corpus (ARC) that aims to encourage users to create AI systems that can solve reasoning tasks it has never been exposed to. The hope is to begin to build more robust AI systems that are able to better and quickly solve new problems on its own which could help to address the more challenging real-world applications such as improving self-driving cars that operate in extreme and diverse environments. -->
+
+***Publicações de Aprendizado de Máquina e Processamento de Linguagem Natural em 2019***
+
+Marek Rei liberou sua [análise anual](https://www.marekrei.com/blog/ml-and-nlp-publications-in-2019/) com estatísticas das publicações sobre ML e NLP em 2019. As conferências consideradas nas análises foram ACL, EMNLP, NAACL, EACL, COLING, TACL, CL, CoNLL, NeurIPS, ICML, ICLR, e AAAI.
+
 
 ***Growing Neural Cellular Automata***
 
-Morphogenesis is a self-organization process by which some creatures such as salamanders can regenerate or repair body damage. The process is robust to perturbations and adaptive in nature. Inspired by this biological phenomenon and a need to understand the process better, researchers published a [paper](https://distill.pub/2020/growing-ca/) titled “Growing Neural Cellular Automata”, which adopts a differentiable model for morphogenesis that aims to replicate behaviors and properties of self-repairing systems. The hope is to be able to build self-repairing machines that possess the same robustness and plasticity as biological life. In addition, it would help to better understand the process of regeneration itself. Applications that can benefit include regenerative medicine and modeling of social and biological systems.
+Morfogênese é um processo de auto-organização pelo quais alguns animais, como as salamandras, pode regenerar partes de seus corpos que sofreram danos. O processo é robusto a perturbações e adaptativo na natureza. Inspirado por esse fenômeno biológico e com a necessidade de uma melhor compreensão desse mecanismo, pesquisadores publicaram um [trabalho](https://distill.pub/2020/growing-ca/) entitulado “*Growing Neural Cellular Automata*”, que adota um modelo diferenciável para o processo de morfogênese que busca replicar os comportamentos e propriedades de sistemas de auto-reparação.
+
+Espera-se que o processo seja capaz de criar máquinas "auto-reparáveis" que possuam a mesma robustez e maleabilidade dos organismos biológicos. Além disso, o processo pode possibilitar um melhor entendimento do processo de regeneração em si. Áreas que podem se beneficiar com essa pesquisa incluem a medicina regenerativa e a modelagem de sistemas sociais e biológicos. 
+
+
+<!-- Morphogenesis is a self-organization process by which some creatures such as salamanders can regenerate or repair body damage. The process is robust to perturbations and adaptive in nature. Inspired by this biological phenomenon and a need to understand the process better, researchers published a [paper](https://distill.pub/2020/growing-ca/) titled “Growing Neural Cellular Automata”, which adopts a differentiable model for morphogenesis that aims to replicate behaviors and properties of self-repairing systems. The hope is to be able to build self-repairing machines that possess the same robustness and plasticity as biological life. In addition, it would help to better understand the process of regeneration itself. Applications that can benefit include regenerative medicine and modeling of social and biological systems. -->
 
 ![](https://cdn-images-1.medium.com/max/800/1*2p62h1RaHD6d11LX8olnTA.png)
 
 
-[*source*](https://distill.pub/2020/growing-ca/)
+[*fonte*](https://distill.pub/2020/growing-ca/)
 
-***Visualizing Transformer attention***
+***Visualização o mecanismo de Atenção do Transformer***
 
-Hendrik Strobelt shared this [great repository](https://github.com/SIDN-IAP/attnvis) that shows how to quickly build a simple interactive Transformer attention visualization through a web application by using the Hugging Face library and d3.js.
+Hendrik Strobelt compartilhou esse [excelente repositório](https://github.com/SIDN-IAP/attnvis) que mostra como construir rapidamente uma simples visualização interativa da Atenção do Transformer através de uma aplicação web utilizando as bibliotecas Hugging Face library e d3.js.
 
 ![](https://cdn-images-1.medium.com/max/800/1*lMaZGDRJUI1Qcv7T5AdhlQ.gif)
 
 
-[*source*](https://github.com/SIDN-IAP/attnvis)
+[*fonte*](https://github.com/SIDN-IAP/attnvis)
 
 ***SketchTransfer: A Challenging New Task for Exploring Detail-Invariance and the Abstractions Learned by Deep Networks***
 
