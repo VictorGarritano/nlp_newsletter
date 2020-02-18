@@ -69,7 +69,7 @@ O [REALM](https://kentonl.com/pub/gltpc.2020.pdf) é um método de recuperação
 
 ***Apresentações remotas de artigos e pôsteres em conferências científicas***
 
-Durante a semana passada, uma [petição](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences) circulou na internet, reivindicação a permissão para apresentações remotas de artigos e pôsteres em conferências científicas como as relacionadas às Aprendizado de Máquina. Para saber mais, acesse [change.org](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences). Parece que Yoshua Bengio, um dos pioneiros em *Deep Learning* está convocando as pessoas às assinarem a petição. Ele deixou isso bem claro em seu novo [blog](https://yoshuabengio.org/2020/02/10/fusce-risus/).
+Durante a semana passada, uma [petição](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences) circulou na internet, reivindicando a permissão para apresentações remotas de artigos e pôsteres em conferências científicas como as relacionadas às Aprendizado de Máquina. Para saber mais, acesse [change.org](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences). Parece que Yoshua Bengio, um dos pioneiros em *Deep Learning* está convocando as pessoas às assinarem a petição. Ele deixou isso bem claro em seu novo [blog](https://yoshuabengio.org/2020/02/10/fusce-risus/).
 
 <!-- The past week there was the circulation of a [petition](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences) to allow for remote paper and poster presentations at scientific conferences like ML related ones. Go read more about it on [change.org](https://www.change.org/p/organizers-of-data-science-and-machine-learning-conferences-neurips-icml-aistats-iclr-uai-allow-remote-paper-poster-presentations-at-conferences). It seems Yoshua Bengio, a pioneer in deep learning, is advocating for people to go and sign the petition. He made this clear in his new [blog](https://yoshuabengio.org/2020/02/10/fusce-risus/). -->
 
@@ -98,9 +98,9 @@ Espera-se que o processo seja capaz de criar máquinas "auto-reparáveis" que po
 
 [*fonte*](https://distill.pub/2020/growing-ca/)
 
-***Visualização o mecanismo de Atenção do Transformer***
+***Visualização do mecanismo de Atenção do Transformer***
 
-Hendrik Strobelt compartilhou esse [excelente repositório](https://github.com/SIDN-IAP/attnvis) que mostra como construir rapidamente uma simples visualização interativa da Atenção do Transformer através de uma aplicação web utilizando as bibliotecas Hugging Face library e d3.js.
+Hendrik Strobelt compartilhou esse [repositório bem interessante](https://github.com/SIDN-IAP/attnvis) que mostra como construir rapidamente uma  visualização simples e interativa da Atenção do Transformer através de uma aplicação web utilizando as bibliotecas Hugging Face library e d3.js.
 
 ![](https://cdn-images-1.medium.com/max/800/1*lMaZGDRJUI1Qcv7T5AdhlQ.gif)
 
@@ -109,12 +109,16 @@ Hendrik Strobelt compartilhou esse [excelente repositório](https://github.com/S
 
 ***SketchTransfer: A Challenging New Task for Exploring Detail-Invariance and the Abstractions Learned by Deep Networks***
 
-SketchTransfer proposes a new task to test the ability of deep neural networks to support invariance in the presence/absence of details. It has long been debated that deep networks cannot generalize to variations that have not yet been seen during training, something humans can do with relative ease such as dealing with the missing visual details when watching cartoons. The paper discusses and releases a dataset to help researchers carefully study the “detail-invariance” problem by providing unlabelled sketch images and labeled examples of real images.
+<!-- SketchTransfer proposes a new task to test the ability of deep neural networks to support invariance in the presence/absence of details. It has long been debated that deep networks cannot generalize to variations that have not yet been seen during training, something humans can do with relative ease such as dealing with the missing visual details when watching cartoons. The paper discusses and releases a dataset to help researchers carefully study the “detail-invariance” problem by providing unlabelled sketch images and labeled examples of real images. -->
+
+O SketchTransfer propõe uma nova tarefa que tem por objetivo testar a habilidade de redes neurais profundas em manter a capacidade invariância frente a presença/ausência de detalhes. Um debate de longa data existe acerca da inabilidade de redes profundas em generalizar variações que não foram vistas durante o treinamento, algo que os humanos conseguem fazer com relativa facilidade em situações como, por exemplo, lidar com a falta de alguns detalhes visuais quando assistimos desenhos. 
+
+O trabalho discute e disponibiliza uma base de dados esboços não-anotados e imagens reais anotadas, permitindo que os pesquisadores possam estudar o problema de "*detail-invariance*" de maneira bastante cuidadosa. 
 
 ![](https://cdn-images-1.medium.com/max/800/1*jdYuMoHiu2yya5rHzZyjwQ.png)
 
 
-[*source*](https://arxiv.org/pdf/1912.11570.pdf)
+[*fonte*](https://arxiv.org/pdf/1912.11570.pdf)
 
 
 # Tools and Datasets ⚙️
