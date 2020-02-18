@@ -23,36 +23,45 @@ A pesquisadora Miryam de Lhoneux liberou recentemente sua tese de Doutorado, ent
 
 ***End-to-end Cloud-based Information Extraction with BERT***
 
-Um time de pesquisadores publicou um [artigo](https://arxiv.org/abs/2002.01861) descrevendo como modelos de Transformers, como o BERT, pode auxiliar sistemas de extração de informação de ponta a ponta em documentos de domínios específicos, como documentação regulatória e de concessão de propriedades. Esse tipo de trabalho, além de otimizar operações de negócios, demonstra a eficiência e aplicabilidade de modelos baseados no BERT em cenários onde bases de dados anotadas são bem extremamente limitadas.
+Um time de pesquisadores publicou um [artigo](https://arxiv.org/abs/2002.01861) descrevendo como modelos de Transformers, como o BERT, pode auxiliar sistemas de extração de informação de ponta a ponta em documentos de domínios específicos, como documentação regulatória e de concessão de propriedades. Esse tipo de trabalho, além de otimizar operações de negócios, demonstra a eficiência e aplicabilidade de modelos baseados no BERT em cenários onde bases de dados anotadas são extremamente limitadas. Uma plataforma na nuvem é apresentada e discutida, assim como os detalhes de sua implementação (ver figura abaixo).
 
 <!-- A team of researchers published a [paper](https://arxiv.org/abs/2002.01861) describing how Transformer models like BERT can help for end-to-end information extraction in domain-specific business documents such as regulatory filings and property lease agreements. Not only can this type of work help to optimize business operations but it also shows the applicability and effectiveness of BERT-based models on regimes with very low annotated data. An application, and its implementation details, that operates on the cloud is also proposed and discussed (see figure below). -->
 
 ![](https://cdn-images-1.medium.com/max/800/1*KqViSLhP0otleDY-XFy3Bg.png)
 
 
-[*source*](https://arxiv.org/abs/2002.01861)
+[*fonte*](https://arxiv.org/abs/2002.01861)
 
 ***Question Answering Benchmark***
 
-[Wolfson et al. (2020)](https://arxiv.org/abs/2001.11770v1) published a question understanding benchmark and a method for breaking down a question that is necessary for computing an appropriate answer. They leverage crowdsourcing to annotate the required steps needed to break down questions. To show the feasibility and applicability of the approach, they improve on open-domain question answering using the HotPotQA dataset.
+Em [Wolfson et al. (2020)](https://arxiv.org/abs/2001.11770v1), apresenta-se um *benchmark* para a tarefa de *question understanding*, além de um método para decomposição de questões, uma etapa necessária para a determinação de uma resposta apropriada. Os autores recorreram à um serviço de *crowdsourcing* para a criação da base anotada de decomposição de questões. Com objetivo de demonstar a viabilidade e aplicabilidade do método proposto,os autores mostraram que é possível melhorar o desempenho de modelos sobre a base de dados HotPotQA.
+
+<!-- [Wolfson et al. (2020)](https://arxiv.org/abs/2001.11770v1) published a question understanding benchmark and a method for breaking down a question that is necessary for computing an appropriate answer. They leverage crowdsourcing to annotate the required steps needed to break down questions. To show the feasibility and applicability of the approach, they improve on open-domain question answering using the HotPotQA dataset. -->
 
 ![](https://cdn-images-1.medium.com/max/800/1*AztG-Inqt6LGQ87lSufRcw.png)
 
 
-*“Questions over different sources share a similar compositional structure. Natural language questions from multiple sources (top) are annotated with the QDMR formalism (middle) and deterministically mapped into a pseudo-formal language (bottom).” —* [*source*](https://arxiv.org/pdf/2001.11770v1.pdf)
+*“Questões de diferentes fontes de informações exibem uma estrutura composicional semelhante. Questões em linguagem natural (parte de cima) são decompostas seguindo a metodologia QDMR (meio) e deterministicamente mapeadas para uma linguagem pseudo-formal.” —* [*fonte*](https://arxiv.org/pdf/2001.11770v1.pdf)
+<!-- Questions over different sources share a similar compositional structure. Natural language questions from multiple sources (top) are annotated with the QDMR formalism (middle) and deterministically mapped into a pseudo-formal language (parte inferior). -->
+
 
 ***Radioactive data: tracing through training***
 
-Facebook AI researchers recently published [an interesting work](https://ai.facebook.com/blog/using-radioactive-data-to-detect-if-a-data-set-was-used-for-training/) that aims to mark images (referred to as radioactive data) so as to verify if that particular data set was used for training the ML model. They found that it is possible to use a clever marker that moves features towards a direction, which the model uses to help detect the usage of radioactive data even when only 1 percent of the training data is radioactive. This is challenging since any change in the data can potentially degrade the model accuracy. According to the authors, this work can “*help researchers and engineers to keep track of which data set was used to train a model so they can better understand how various data sets affect the performance of different neural networks*”. It seems like an important approach in mission-critical ML applications. Check out the full paper [here](https://arxiv.org/pdf/2002.00937.pdf).
+Membros da equipe de pesquisa em IA do Facebook publicaram recentemente um [trabalho interessante](https://ai.facebook.com/blog/using-radioactive-data-to-detect-if-a-data-set-was-used-for-training/) que propõe a marcação de imagens (referenciadas como *radioactivate data*) de tal maneira que seja possível verificar se uma determinada base de dados foi utilizada no treinamento de um modelo de Aprendizado de Máquina. 
+Os autores concluíram que é possível utilizar uma marcação mais robusta que move as *features* para uma determinada direção, que pode ser utilizada para auxiliar a detecção de dados "radioativos" pelo menos, mesmo quando apenas **1%** destes estão presentes na base de treinamento. Essa é uma tarefa bem desafiadora, uma vez que qualquer modificação nos dados pode potencialmente prejudicar o desempenho do modelo. De acordo com os autores, o trabalho proposto pode "*ajudar pesquisadores e engenheiros a monitorar quais bases de dados foram utilizadas no treinamento de um modelo com o objetivo de compreender melhor como bases de dados de diferentes naturezas influenciam o desempenho de diversas redes neurais*". Parece uma tarefa crucial para aplicações *mission-critical*. Confira o artigo completo [aqui](https://arxiv.org/pdf/2002.00937.pdf).
+
+<!-- Facebook AI researchers recently published [an interesting work](https://ai.facebook.com/blog/using-radioactive-data-to-detect-if-a-data-set-was-used-for-training/) that aims to mark images (referred to as radioactive data) so as to verify if that particular data set was used for training the ML model. They found that it is possible to use a clever marker that moves features towards a direction, which the model uses to help detect the usage of radioactive data even when only 1 percent of the training data is radioactive. This is challenging since any change in the data can potentially degrade the model accuracy. According to the authors, this work can “*help researchers and engineers to keep track of which data set was used to train a model so they can better understand how various data sets affect the performance of different neural networks*”. It seems like an important approach in mission-critical ML applications. Check out the full paper [here](https://arxiv.org/pdf/2002.00937.pdf). -->
 
 ***REALM: Retrieval-Augmented Language Model Pre-Training***
 
-[REALM](https://kentonl.com/pub/gltpc.2020.pdf) is a large-scale neural-based retrieval approach that makes use of a corpus of textual knowledge to pre-train a language model in an unsupervised manner. This approach essentially aims to capture knowledge in a more interpretable way by exposing the model to world knowledge that is used for training and predictions via backpropagation. Tasks approached and evaluated using REALM include open-domain question answering benchmarks. Besides the improvements in the accuracy of the model, other benefits include the modularity and interpretability components.
+O [REALM](https://kentonl.com/pub/gltpc.2020.pdf) é um método de recuperação em larga escala baseado em redes neurais, que faz uso de bases de conhecimento textual para pré-treinar um modelo de linguagem de maneira não-supervisionada. Essencialmente, o objetivo da abordagem é capturar o conhecimento,  de uma maneira mais interpretável, expondo o modelo à conhecimentos gerais utilizados durante o processo de treinamento e inferência através do *backpropagation*. As bases onde o método foi testado e avaliado incluem *benchmarks* de *open-domain question answering*. Além das melhoras observadas na acurácia do modelo, outros benefícios incluem modularidade e interpretabilidade dos componentes.
+
+<!-- [REALM](https://kentonl.com/pub/gltpc.2020.pdf) is a large-scale neural-based retrieval approach that makes use of a corpus of textual knowledge to pre-train a language model in an unsupervised manner. This approach essentially aims to capture knowledge in a more interpretable way by exposing the model to world knowledge that is used for training and predictions via backpropagation. Tasks approached and evaluated using REALM include open-domain question answering benchmarks. Besides the improvements in the accuracy of the model, other benefits include the modularity and interpretability components. -->
 
 ![](https://cdn-images-1.medium.com/max/800/1*MJO-yzCwsB5ydKGz7hKHVA.png)
 
 
-[*source*](https://kentonl.com/pub/gltpc.2020.pdf)
+[*fonte*](https://kentonl.com/pub/gltpc.2020.pdf)
 
 
 # Creativity and Society 🎨
