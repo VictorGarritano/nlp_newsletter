@@ -121,55 +121,78 @@ O trabalho discute e disponibiliza uma base de dados esboços não-anotados e im
 [*fonte*](https://arxiv.org/pdf/1912.11570.pdf)
 
 
-# Tools and Datasets ⚙️
+# Bibliotecas e Bases de Dados ⚙️
 
 ***DeepSpeed + ZeRO***
 
-Microsoft open sources a training optimization library called DeepSpeed, which is compatible with PyTorch and can enable the ability to train a 100-billion-parameter model. The library focuses on four important aspects of training a model: *scale*, *speed*, *cost*, and *usability*. DeepSpeed was [released](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/) together with ZeRO which is a memory optimization technology for enabling large-scale distributed deep learning in current GPU technology while improving throughput three to five times more than the best current system. ZeRO allows the training of models with any arbitrary size that can fit in the aggregated available memory in terms of shared model states.
+A Microsoft liberou um pacote para otimização chamado DeepSpeed, compatível com o PyTorch, que possibilita o treinamento de modelos com 100 bilhões de parâmetros. A biblioteca dá destaque a 4 importantes aspectos do processo de treinamento: *escalabilidade*, *velocidade*, *custo*, e *usabilidade*. A DeepSeed foi [liberada](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/) junto com o ZeRO, uma tecnologia que otimiza utilização da memória, e que possibilita o emprego do Deep Learning em larga escala de maneira distribuída com as atuais tecnologias de GPU, além de melhorar o *throughput* em 3-5 vezes em relação à melhor solução atual. A tecnologia possibilita o treinamento de modelos de tamanho arbitrário que podem ocupar a memória total disponível distribuída pelos diversos dispositivos na infra-estrutura. 
+
+<!-- Microsoft open sources a training optimization library called DeepSpeed, which is compatible with PyTorch and can enable the ability to train a 100-billion-parameter model. The library focuses on four important aspects of training a model: *scale*, *speed*, *cost*, and *usability*. DeepSpeed was [released](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/) together with ZeRO which is a memory optimization technology for enabling large-scale distributed deep learning in current GPU technology while improving throughput three to five times more than the best current system. ZeRO allows the training of models with any arbitrary size that can fit in the aggregated available memory in terms of shared model states. -->
 
 ![](https://cdn-images-1.medium.com/max/800/0*MXDI1f3cSBrY5w2g.gif)
 
 
-[*source*](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/)
+[*fonte*](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/)
 
-***A library for conducting fast and efficient 3D deep learning research***
+<!-- ***A library for conducting fast and efficient 3D deep learning research*** -->
 
-[PyTorch3D](https://ai.facebook.com/blog/-introducing-pytorch3d-an-open-source-library-for-3d-deep-learning/) is an open-source toolkit for 3D based deep learning research. This PyTorch library aims to help with the support and understanding of 3D data in deep learning systems. The library consists of fast and optimized implementations of frequently used 3D operators and loss functions. It also comes with a modular differentiable renderer which helps to conduct research on complex 3D inputs and supports high-quality 3D predictions.
+***Deep Learning em Superfícies 3D de Maneira Rápida e Eficiente***
+
+<!-- [PyTorch3D](https://ai.facebook.com/blog/-introducing-pytorch3d-an-open-source-library-for-3d-deep-learning/) is an open-source toolkit for 3D based deep learning research. This PyTorch library aims to help with the support and understanding of 3D data in deep learning systems. The library consists of fast and optimized implementations of frequently used 3D operators and loss functions. It also comes with a modular differentiable renderer which helps to conduct research on complex 3D inputs and supports high-quality 3D predictions. -->
+
+A [PyTorch3D](https://ai.facebook.com/blog/-introducing-pytorch3d-an-open-source-library-for-3d-deep-learning/) é uma biblioteca em código aberto para a pesquisa de Deep Learning aplicado à superfícies 3D. Esse pacote, baseado no Pytorch, busca auxiliar no suporte e entendimento de dados em 3D aplicados à redes neurias. A biblioteca consiste de implementações eficientes e otimizadas de operadores e funções de custo 3D comumente utilizadas. Um renderizador diferenciável modular também está disponível, o qual pode ser útil durante a pesquisa e exploração de entrada 3D com padrões complexos e na geração de predições de alta qualidade.
 
 ![](https://cdn-images-1.medium.com/max/800/1*VbspKMmPBUsgpdnIkd5jYA.png)
 
 
-[*source*](https://ai.facebook.com/blog/-introducing-pytorch3d-an-open-source-library-for-3d-deep-learning/)
+[*fonte*](https://ai.facebook.com/blog/-introducing-pytorch3d-an-open-source-library-for-3d-deep-learning/)
 
-***Managing Configuration of ML projects***
+<!-- ***Managing Configuration of ML projects*** -->
 
-Hydra is a Python-based configuration tool for more efficiently managing complex ML projects. It is meant to help PyTorch researchers by offering functional reuse of configurations for ML projects. The main benefit it offers is that it allows the programmer to *compose the configuration like composing code*, which means the configuration file can be easily overridden. Hydra can also help with automatically managing the working directory of your ML project outputs which is useful when needing to save and accessing the results of several experiments for multiple jobs. Learn more about it [here](https://medium.com/pytorch/hydra-a-fresh-look-at-configuration-for-machine-learning-projects-50583186b710%27).
+***Gerenciamento de Configurações para projetos de ML***
 
-***A Toolkit for Causal Inferencing with Bayesian Networks***
+Hydra é uma ferramenta de configuração escrita em Python, que auxilia no gerenciamento de projetos complexos de ML de maneira mais eficiente. O propósito é dar suporte a pesquisadores que utilizam o Pytorch oferencedo a possibilidade de reutilização de configurações de projetos de maneira funcional. O benefício principal oferecido é a possibilidade do programador *compor configurações como compõe-se código*, o que permite a rápida alteração de arquivos de configuração. A Hydra pode ainda gerenciar automaticamente o diretório de trabalho que armazenam as saídas do seu projeto de ML, o que é bem útil quando precisamos salvar e acessar diversos resultados provenientes de múltiplos jobs. Para saber, mais visite o [site](https://hydra.cc/).
 
-[CausalNex](https://causalnex.readthedocs.io/en/latest/01_introduction/01_introduction.html) is a toolkit for “causal inference with Bayesian Networks”. The tool aims to combine machine learning and causal reasoning for uncovering structural relationships in data. The authors also prepared an introductory guide on why and how to infer causation with Bayesian networks using the proposed Python library.
+<!-- Hydra is a Python-based configuration tool for more efficiently managing complex ML projects. It is meant to help PyTorch researchers by offering functional reuse of configurations for ML projects. The main benefit it offers is that it allows the programmer to *compose the configuration like composing code*, which means the configuration file can be easily overridden. Hydra can also help with automatically managing the working directory of your ML project outputs which is useful when needing to save and accessing the results of several experiments for multiple jobs. Learn more about it [here](https://medium.com/pytorch/hydra-a-fresh-look-at-configuration-for-machine-learning-projects-50583186b710%27). -->
+
+<!-- ***A Toolkit for Causal Inferencing with Bayesian Networks*** -->
+
+***Uma biblioteca para Inferência Causal com Redes Bayesianas***
+
+
+<!-- [CausalNex](https://causalnex.readthedocs.io/en/latest/01_introduction/01_introduction.html) is a toolkit for “causal inference with Bayesian Networks”. The tool aims to combine machine learning and causal reasoning for uncovering structural relationships in data. The authors also prepared an introductory guide on why and how to infer causation with Bayesian networks using the proposed Python library. -->
+
+A [CausalNex](https://causalnex.readthedocs.io/en/latest/01_introduction/01_introduction.html) é uma ferramenta que busca combinar o aprendizado de máquina e o raciocínio causal para descobrir relacionamentos estruturais na base de dados. Os autores preparaaram um tutorial introdutório que mostra porquê e como inferir causalidade com as Redes Bayesianas utilizando a biblioteca proposta.
+
 
 ![](https://cdn-images-1.medium.com/max/800/1*EYwKhdnscR7ZLuNkTqCS2Q.png)
 
 
-[*source*](https://causalnex.readthedocs.io/en/latest/01_introduction/01_introduction.html)
+[*fonte*](https://causalnex.readthedocs.io/en/latest/01_introduction/01_introduction.html)
 
-***Google Colab Pro is now available***
+***Google Colab Pro agora está disponível***
 
-Google Colab is now offering a Pro edition, which offers advantages such as exclusive access to faster GPUs and TPUs, longer runtimes, and more memory.
+
+O Google Colab comecou a oferecer uma versão Pro, que disponibiliza vantagens como o acesso exclusivo à GPUs e TPUs, tempos de execução mais longos e mais memória.
+
+<!-- Google Colab is now offering a Pro edition, which offers advantages such as exclusive access to faster GPUs and TPUs, longer runtimes, and more memory. -->
 
 ***TyDi QA: A Multilingual Question Answering Benchmark***
 
-Google AI releases [TyDi QA](https://ai.googleblog.com/2020/02/tydi-qa-multilingual-question-answering.html) which is a multilingual dataset that can encourage researchers to perform question answering on more typologically diverse languages that construct and express meaning in different ways. The idea is to motivate researchers to build more robust models on typologically distant languages, such as Arabic, Bengali, Korean, Russian, Telugu, and Thai, so as to generalize to even more languages.
+O grupo de IA da Google introduziu recentemente a [TyDi QA](https://ai.googleblog.com/2020/02/tydi-qa-multilingual-question-answering.html), uma base de dados multi-idiomas que busca encorajar pesquisaores a abordar a tarefa de *question answering* em línguas mais tipologicamente diversas, que apresentam padrões estrturais não-convencionais. A liberação da base visa motivar pesquisadores a construir modelos mais robustos a idiomas tipologicamente distantes, como o Árabe, Bengali, Coreano, Russo, Telugo e Tailândes, podem generalizar para outros dialetos.
+
+<!-- Google AI releases [TyDi QA](https://ai.googleblog.com/2020/02/tydi-qa-multilingual-question-answering.html) which is a multilingual dataset that can encourage researchers to perform question answering on more typologically diverse languages that construct and express meaning in different ways. The idea is to motivate researchers to build more robust models on typologically distant languages, such as Arabic, Bengali, Korean, Russian, Telugu, and Thai, so as to generalize to even more languages. -->
 
 ![](https://cdn-images-1.medium.com/max/800/1*1dZv5you3jigdrQ2uAKzUw.png)
 
 
-[*source*](https://ai.googleblog.com/2020/02/tydi-qa-multilingual-question-answering.html)
+[*fonte*](https://ai.googleblog.com/2020/02/tydi-qa-multilingual-question-answering.html)
 
-***Question Answering for Node.js***
+***Question Answering para Node.js***
 
-Hugging Face releases a [question answering library](https://github.com/huggingface/node-question-answering) based on DistilBERT and continues to make NLP more accessible. This model can run in production using Node.js with just 3 lines of code. The model leverages the fast implementation of Tokenizers, also built by Hugging Face, and TensorFlow.js (a popular library for using machine learning models with Javascript).
+A empresa Hugging Face liberou uma [biblioteca para *question answering*](https://github.com/huggingface/node-question-answering) baseada no DistilBERT, dando continuidade a sua missão de tornar a área de Processamento de Linguagem Natural mais acessível. O modelo apresentado pode rodar num ambiente de produção utilizando Node.js com apenas 3 linhas de código, se benficiando da implentação eficiente oferecida pela Tokenizers, também desenvolvida pelo Hugging Face, e a versão em Javascript do TensorFLow (TensorFlow.js).
+
+<!-- Hugging Face releases a [question answering library](https://github.com/huggingface/node-question-answering) based on DistilBERT and continues to make NLP more accessible. This model can run in production using Node.js with just 3 lines of code. The model leverages the fast implementation of Tokenizers, also built by Hugging Face, and TensorFlow.js (a popular library for using machine learning models with Javascript). -->
 
 
 # Ethics in AI 🚨
