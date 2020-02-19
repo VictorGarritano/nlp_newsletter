@@ -259,44 +259,58 @@ Cathal Horan publicou um [blog post](https://blog.floydhub.com/tokenization-nlp/
 ![](https://cdn-images-1.medium.com/max/800/1*Vkjw5n9Sz0Was43haVNJMg.png)
 
 
-[*source*](https://blog.floydhub.com/tokenization-nlp/%27)
+[*fonte*](https://blog.floydhub.com/tokenization-nlp/%27)
 
 
-# Education 🎓
+# Educação 🎓
 
-***Machine Learning at VU University Amsterdam***
+***Machine Learning na VU Amsterdam***
 
-You can now follow the [2020 MLVU machine learning](https://mlvu.github.io/) course online, which includes the full set of slides, [videos](https://www.youtube.com/watch?v=excCZSTJEPs&feature=youtu.be), and syllabus. It is meant to be an introduction to ML but it also has other deep learning related topics such as VAEs and GANs.
+Agora você pode acompanahar o curso [2020 MLVU machine learning](https://mlvu.github.io/) pela internet, onde estão inclusas a lista completa de slides, [videos](https://www.youtube.com/watch?v=excCZSTJEPs&feature=youtu.be) e o plano de estudos. O curso oferece uma introdução à ML, além de cobrir tópicos mais avançados de Deep Learning, como Variational AutoEncoders (VAEs) e Redes Neurais Adversariais (GANs).
+
+<!-- You can now follow the [2020 MLVU machine learning](https://mlvu.github.io/) course online, which includes the full set of slides, [videos](https://www.youtube.com/watch?v=excCZSTJEPs&feature=youtu.be), and syllabus. It is meant to be an introduction to ML but it also has other deep learning related topics such as VAEs and GANs. -->
 
 ![](https://cdn-images-1.medium.com/max/800/1*zFpU2rQL5Fby7X3boJyQNg.png)
 
 
-[*source*](https://mlvu.github.io/)
+[*fonte*](https://mlvu.github.io/)
 
-***Math resources for ML***
+***Materiais de Natemática para ML***
 
-Suzana Ilić and the Machine Learning Tokyo (MLT) have been doing amazing work in terms of democratizing ML education. For example, check out this [repository](https://github.com/Machine-Learning-Tokyo/Math_resources) showcasing a collection of free online resources for learning about the foundations of mathematical concepts used in ML.
+Suzana Ilić e a organização Machine Learning Tokyo (MLT) vêm realizando um excelente trabalho em prol da democratização do conhecimento em ML. Confira esse [repositório](https://github.com/Machine-Learning-Tokyo/Math_resources) contendo uma coleção de fontes e materiais sobre os fundamentos dos conceitos matemáticos utilizados em Aprendizado de Máquina.
+
+
+<!-- Suzana Ilić and the Machine Learning Tokyo (MLT) have been doing amazing work in terms of democratizing ML education. For example, check out this [repository](https://github.com/Machine-Learning-Tokyo/Math_resources) showcasing a collection of free online resources for learning about the foundations of mathematical concepts used in ML. -->
 
 ***Introduction to Deep Learning***
 
-Keep track of the “[Introduction to Deep Learning](http://introtodeeplearning.com/)” course by MIT on this website. New lectures will be posted every week and all the sides and videos, including coding labs, will be published.
+Acompanhe o curso “[Introduction to Deep Learning](http://introtodeeplearning.com/)” do MIT nesse site. Novas aulas serão postadas toda semanas e todos os materiais, como slides, vídeos e códigos utilizados, serão publicados.
 
-***Deep Learning with PyTorch***
 
-Alfredo Canziani has published the slides and notebooks for the minicourse on Deep Learning with PyTorch. The repository also contains a [companion website](https://atcold.github.io/pytorch-Deep-Learning-Minicourse/) that includes text descriptions of the concepts taught in the course.
+<!-- Keep track of the “[Introduction to Deep Learning](http://introtodeeplearning.com/)” course by MIT on this website. New lectures will be posted every week and all the sides and videos, including coding labs, will be published. -->
+
+***Deep Learning com PyTorch***
+
+Alfredo Canziani publicou os slides e notebooks utilizados no minicurso de Deep Learning com Pytorch. O repositório contém ainda um [site](https://atcold.github.io/pytorch-Deep-Learning/) que incluem notas sobre os conceitos apresentados no curso.
+
+<!-- Alfredo Canziani has published the slides and notebooks for the minicourse on Deep Learning with PyTorch. The repository also contains a [companion website](https://atcold.github.io/pytorch-Deep-Learning-Minicourse/) that includes text descriptions of the concepts taught in the course. -->
 
 ***Missing Semester of Your CS***
 
-The “[Missing Semester of Your CS](https://missing.csail.mit.edu/)” is a great online course that consists of material that could potentially be useful for data scientists with non-dev backgrounds. It includes topics such as shell tools and scripting and version control. The course was published by MIT faculty members.
+O “[Missing Semester of Your CS](https://missing.csail.mit.edu/)” é um excelente curso online composto por materiais que podem ser potencialmente úteis para cientistas de dados que não possuem background na área de desenvolvimenteo. Estão inclusos materiais sobre *shell scripting* e versionamento. O curso foi disponibilizado por alunos do MIT.
 
 ![](https://cdn-images-1.medium.com/max/800/1*weUnTXxmHxYf-B2DDaslvw.png)
 
 
-[*source*](https://missing.csail.mit.edu/2020/shell-tools/)
+[*fonte*](https://missing.csail.mit.edu/2020/shell-tools/)
 
 ***Advanced Deep Learning***
 
-CMU released the slides and syllabus for the “[Advanced Deep Learning](https://andrejristeski.github.io/10707-S20/syllabus.html)” course which includes topics such as autoregressive models, generative models, and self-supervised/predictive learning, among others. The course is meant for MS or Ph.D. students with an advanced background in ML.
+
+
+A CMU disponibilizou recentemente os slides e plano de estudos para o curso “[Advanced Deep Learning](https://andrejristeski.github.io/10707-S20/syllabus.html)”, que cobre tópicos como modelos autoregressivos, modelos generativos, aprendizado autosupervisionado, entre outros. O público-alvo são alunos de mestrado e doutorado com sólidos conhecimentos de ML.
+
+<!-- A CMU released the slides and syllabus for the “[Advanced Deep Learning](https://andrejristeski.github.io/10707-S20/syllabus.html)” course which includes topics such as autoregressive models, generative models, and self-supervised/predictive learning, among others. The course is meant for MS or Ph.D. students with an advanced background in ML. -->
 
 
 # Noteworthy Mentions ⭐️
