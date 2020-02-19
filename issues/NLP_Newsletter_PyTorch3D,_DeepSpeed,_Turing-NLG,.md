@@ -219,26 +219,32 @@ A VentureBeat divulgou que pesquisadores da Google, numa colaboração com outro
 <!-- A VentureBeat reports that Google Researchers, in collaboration with other groups, created a framework called SMACTR that allows engineers to audit AI systems. The reason for this work is to address the accountability gap that exists with current AI systems that are put in the wild to be used by consumers. Read the full report [here](https://venturebeat.com/2020/01/30/google-researchers-release-audit-framework-to-close-ai-accountability-gap/) and the full paper [here](https://dl.acm.org/doi/abs/10.1145/3351095.3372873). -->
 
 
-# Articles and Blog posts ✍️
+# Artigos e Postagens ✍️
 
-***On model distillation for NLP systems***
+***Destilação de modelos em sistemas de NLP***
 
-In a [new episode](https://soundcloud.com/nlp-highlights/104-model-distillation-with-victor-sanh-and-thomas-wolf) of the NLP Highlights podcast, Thomas Wolf and Victor Sanh talk about model distillation and how it can be used as a feasible approach to compress large models like BERT for scalable real-world NLP based applications. This concept is further discussed in their proposed method called [DistilBERT](https://arxiv.org/abs/1910.01108) where they build smaller models (based on the same architecture of a bigger model) to try to mimic the behavior of the bigger model based on the output of that model. In essence, the smaller model (student) tries to fit the probability distribution of the teacher based on its output distribution.
+Num [novo episódio](https://soundcloud.com/nlp-highlights/104-model-distillation-with-victor-sanh-and-thomas-wolf) do podcast *NLP Highlights*, Thomas Wolf and Victor Sanh discutiram sobre a destilação de modelos e como a técnica pode ser utilizada como uma alternativa factível para a compressão de grandes modelos, como o BERT, para aplicações escaláveis de NLP em cenários reais. A metodologia é discutida no trabalho publicado pelos convidados, entitulado [DistilBERT](https://arxiv.org/abs/1910.01108) onde modelos menores são construídos (baseados na mesma arquitetura do modelo original) que tentam simluar o comportamento do modelo com maior número de parâmetros baseado em suas saídas. Essencialmente, o menor modelo (*student*) tenta modelar a distribuição de probabilidade do modelo maior (*teacher*) baseado na distribuição empírica gerado por suas saídas.
 
 ***BERT, ELMo, & GPT-2: How contextual are contextualized word representations?***
 
-Recently there has been a lot of talk on the success of contextualized methods like BERT for approaching a wide variety of complex NLP tasks. In this [post](https://kawine.github.io/blog/nlp/2020/02/03/contextual.html), Kawin Ethayarajh attempts to answer the question of how contextual models like BERT, ELMo and GPT-2 and their contextualized word representation are? Topics include measures of contextuality, context-specificity, and comparisons between static embeddings and contextualized representations.
+O sucesso de métodos contextualizados como o BERT para resolução de uma ampla gama de tarefas complexas de NLP é um assunto que está em voga no momento. Nesse [post](https://kawine.github.io/blog/nlp/2020/02/03/contextual.html), Kawin Ethayarajh tenta responder a questão que diz respeito à quão contextuais são os modelos como BERT, o ELMo e o GPT-2 e seus respectivos *word embedddings* contextualizados. As características exploradas incluem métricas de contextualidade, especificidade de contexto, além de comparações entre representações vetorias de palavras "estáticas" e suas versões contextualizadas.
+
+<!-- Recently there has been a lot of talk on the success of contextualized methods like BERT for approaching a wide variety of complex NLP tasks. In this [post](https://kawine.github.io/blog/nlp/2020/02/03/contextual.html), Kawin Ethayarajh attempts to answer the question of how contextual models like BERT, ELMo and GPT-2 and their contextualized word representation are? Topics include measures of contextuality, context-specificity, and comparisons between static embeddings and contextualized representations. -->
 
 ![](https://cdn-images-1.medium.com/max/800/0*70aIv1Fkkz4rnHgQ.png)
 
 
-[*source*](https://kawine.github.io/blog/nlp/2020/02/03/contextual.html)
+[*fonte*](https://kawine.github.io/blog/nlp/2020/02/03/contextual.html)
 
-***Sparsity in Neural Networks***
+***Esparsidade em Redes Neurais***
 
-François Lagunas, an ML researcher, wrote this great [blog post](https://medium.com/huggingface/is-the-future-of-neural-networks-sparse-an-introduction-1-n-d03923ecbd70) discussing his optimism for adopting sparse tensors in neural network models. The hope is to employ some form of sparsity to reduce the size of current models that at some point become unpractical due to their size and speed. This concept may be worth exploring in ML due to the sheer size of current models like Transformers (often relying on billions of parameters). However, the implementation details to support efficient sparsity in neural networks on GPUs are not so clear from a developer tool perspective and that is something the machine learning community is working on already.
+François Lagunas, pesquisador na área de ML, escreveu esse excelente [post](https://medium.com/huggingface/is-the-future-of-neural-networks-sparse-an-introduction-1-n-d03923ecbd70) compartilhando seu otimismo em relação à utilização de tensores esparsos em modelos de redes neurais. A expectativa é empregar alguma forma de esparsidade com o objetivo de reduzir o tamanho dos modelos atuais, que de certa forma estão se tornando impraticáveis, dada as suas colossais quantidades de parâmetros. Os Transformers, por exemplo, com seus bilhões de parâmetros, poderiam se beneficar com o emprego dessa técnica.
 
-***Training your own language model***
+Entretanto, os detalhes de implementação para viabilizar a utilização eficiente da esparsidade em GPU ainda não estão claros... Felizmente, a comunidade de Aprendizado de Máquina já está trabalhando nisso!
+
+<!-- François Lagunas, an ML researcher, wrote this great [blog post](https://medium.com/huggingface/is-the-future-of-neural-networks-sparse-an-introduction-1-n-d03923ecbd70) discussing his optimism for adopting sparse tensors in neural network models. The hope is to employ some form of sparsity to reduce the size of current models that at some point become unpractical due to their size and speed. This concept may be worth exploring in ML due to the sheer size of current models like Transformers (often relying on billions of parameters). However, the implementation details to support efficient sparsity in neural networks on GPUs are not so clear from a developer tool perspective and that is something the machine learning community is working on already. -->
+
+***Treinando Seu Próprio Modelo de Linguagem***
 
 If you are interested to learn how to train a language model scratch, check out this impressive and comprehensive [tutorial](https://huggingface.co/blog/how-to-train) by Hugging Face. They obviously leverage their own libraries Transformers and Tokenizers to train the model.
 
