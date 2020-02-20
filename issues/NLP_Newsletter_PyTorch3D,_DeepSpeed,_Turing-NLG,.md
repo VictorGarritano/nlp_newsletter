@@ -313,18 +313,31 @@ A CMU disponibilizou recentemente os slides e plano de estudos para o curso “[
 <!-- A CMU released the slides and syllabus for the “[Advanced Deep Learning](https://andrejristeski.github.io/10707-S20/syllabus.html)” course which includes topics such as autoregressive models, generative models, and self-supervised/predictive learning, among others. The course is meant for MS or Ph.D. students with an advanced background in ML. -->
 
 
-# Noteworthy Mentions ⭐️
+# Menções honrosas ⭐️
 
-You can catch the previous NLP Newsletter here. The [issue](https://medium.com/dair-ai/nlp-newsletter-flax-thinc-language-specific-bert-models-meena-flyte-lasertagger-4f7da04a9060) covers topics such as improving conversational agents, releases of language-specific BERT models, free datasets, releases of deep learning libraries, and much more.
+Você pode encontrar a última Newsletter [aqui](https://medium.com/dair-ai/nlp-newsletter-flax-thinc-language-specific-bert-models-meena-flyte-lasertagger-4f7da04a9060). Essa edição cobriu tópicos como melhorias em agentes conversacionais, divulgação de modelos BERT para idiomas específicos (entre eles o Português!!!), bases de dados publicamente disponívies, introdução de novas bibliotecas para Deep Learning, e muito mais.
 
-Xu et al. (2020) proposed a [method](https://arxiv.org/abs/2002.02925]) for progressively replacing and compressing a BERT model by dividing it into its original components. Through progressive replacement and training, there is also the advantage of combining the original components and compacted versions of the model. The proposed model outperforms other knowledge distillation approaches on the GLUE benchmark.
+<!-- You can catch the previous NLP Newsletter here. The [issue](https://medium.com/dair-ai/nlp-newsletter-flax-thinc-language-specific-bert-models-meena-flyte-lasertagger-4f7da04a9060) covers topics such as improving conversational agents, releases of language-specific BERT models, free datasets, releases of deep learning libraries, and much more. -->
 
-Here is another interesting course called “[Introduction to Machine Learning](https://compstat-lmu.github.io/lecture_i2ml/index.html)” which covers the ML basics, supervised regression, random forests, parameter tuning, and many more fundamental ML topics.
+Em Xu et al. (2020), foi proposto um [método](https://arxiv.org/abs/2002.02925]) para progressivamente substituir e comprimir modelos BERT através da separação de seus componentes original. Através dessa substituição progressiva, aliado ao processo de treinamento, é possível combinar os componentes originais e suas versões compactadas. A metodologia apresentada supera outras abordagens de *knowledge distillation* no benchmark GLUE. 
 
-🇬🇷 Greek BERT ([GreekBERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1)) model is now available for use through the Hugging Face Transformers library.
+<!-- Xu et al. (2020) proposed a [method](https://arxiv.org/abs/2002.02925]) for progressively replacing and compressing a BERT model by dividing it into its original components. Through progressive replacement and training, there is also the advantage of combining the original components and compacted versions of the model. The proposed model outperforms other knowledge distillation approaches on the GLUE benchmark. -->
 
-Jeremy Howard publishes a [paper](https://arxiv.org/abs/2002.04688) describing the fastai deep learning library which is widely used for research and to teach their open courses on deep learning. A recommended read for software developers working on building and improving deep learning and ML libraries.
+Um outro curso interessante é o “[Introduction to Machine Learning](https://compstat-lmu.github.io/lecture_i2ml/index.html)”, que cobre o básico de ML, regressão supervisionada, *random forests*, ajuste de parâmetros e muitos outros conceitos fundamentais.
 
-Deeplearning.ai completes the release of all four courses of the [TensorFlow: Data and Deployment Specialization](https://www.coursera.org/specializations/tensorflow-data-and-deployment). The specialization mainly aims to educate developers on how to efficiently and effectively deploy models in different scenarios and make use of data in interesting and effective ways while training models.
+<!-- Here is another interesting course called “[Introduction to Machine Learning](https://compstat-lmu.github.io/lecture_i2ml/index.html)” which covers the ML basics, supervised regression, random forests, parameter tuning, and many more fundamental ML topics. -->
 
-Sebastian Raschka recently published a [paper](https://arxiv.org/abs/2002.04803) titled “Machine Learning in Python: Main developments and technology trends in data science, machine learning, and artificial intelligence”. The paper serves as a comprehensive review of the machine learning tools landscape. It is an excellent report for understanding the various advantages of some libraries and concepts used in ML engineering. In addition, a word on the future of Python-based machine learning libraries is provided.
+A versão para 🇬🇷 grego do BERT ([GreekBERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1)) está disponível para uso através da biblioteca Transformers, da Hugging Face.
+
+Jeremy Howard publicou um [artigo](https://arxiv.org/abs/2002.04688) descrevendo a biblioteca de Deep Learning fast.ai, que é amplamente utilizada para pesquisa e ensino em seus cursos de Deep Learning. Um leitura bastante recomendada para desenvolvedores de software que trabalham construindo e melhorando pacote de Aprendizado de Máquina e Deep Learning.
+<!-- 
+Jeremy Howard publishes a [paper](https://arxiv.org/abs/2002.04688) describing the fastai deep learning library which is widely used for research and to teach their open courses on deep learning. A recommended read for software developers working on building and improving deep learning and ML libraries. -->
+
+A Deeplearning.ai completou o lançamento dos seus 4 cursos da série [TensorFlow: Data and Deployment Specialization](https://www.coursera.org/specializations/tensorflow-data-and-deployment). A especialização visa ensinar desenvolverdores a como realizar o *deploy* de modelos de maneira efetiva e eficiente nos diferentes cenários, além de utilizar dados de maneiras eficazes durante o treinamento de modelos.
+
+<!-- Deeplearning.ai completes the release of all four courses of the [TensorFlow: Data and Deployment Specialization](https://www.coursera.org/specializations/tensorflow-data-and-deployment). The specialization mainly aims to educate developers on how to efficiently and effectively deploy models in different scenarios and make use of data in interesting and effective ways while training models. -->
+
+Sebastian Raschka publicou recentemente um [artigo](https://arxiv.org/abs/2002.04803) entitulado “Machine Learning in Python: Main developments and technology trends in data science, machine learning, and artificial intelligence”. O trabalho apresenta uma revisão bastante acessível às mais variadas ferramentas de ML. É um trabalho excelente para compreender as vantagens de algumas bibliotecas e conceitos utilizados em Aprendizado de Máquina. Além disso, levanta-se a discussão sobre o futuro de bibliotecas de ML baseadas em Python.
+
+
+<!-- Sebastian Raschka recently published a [paper](https://arxiv.org/abs/2002.04803) titled “Machine Learning in Python: Main developments and technology trends in data science, machine learning, and artificial intelligence”. The paper serves as a comprehensive review of the machine learning tools landscape. It is an excellent report for understanding the various advantages of some libraries and concepts used in ML engineering. In addition, a word on the future of Python-based machine learning libraries is provided. -->
